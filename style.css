@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+
+header {
+  height: 40px;
+  padding: 0 5vw;
+  box-shadow: 0 2px 2px #aaa;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5em;
+  line-height: 40px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  display: grid;
+  place-content: center;
+  height: calc(80vh - 40px);
+}
+.container ul li {
+  list-style: none;
+}
