@@ -1,5 +1,3 @@
-const sayHi = () => {
-    alert(`Hello Everyone`);
-}
+const add = (num1, num2) => num1 + num2
 
-sayHi()
+add(10, 15)
