@@ -1,6 +1,3 @@
-function aamirfunction(fun) {
-    return fun
-}
-function add(no1, no2){
-    return no1 + no2
-}
+const add = (num1, num2) => num1 + num2
+
+add(10, 15)
